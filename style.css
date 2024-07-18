@@ -1,0 +1,278 @@
+body{
+    overflow-x: hidden;
+    background: #F8F8FF;
+}
+
+header{
+    background-color: #ca7575;
+}
+
+.cabacalho {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#fateclogo{
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.navbar-nav li{
+    background-color: #ab5d5d;
+    margin-left: 2%;
+    border-radius: 0.7rem;
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-right: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+.navbar-nav li a{
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 6rem;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 0.5rem;
+    font-weight: bold;
+
+}
+
+.navbar-nav li:hover{
+    background-color: #ad6c6c !important;
+}
+
+canvas{
+    min-height: 45vh;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.card{
+    transition: transform 0.5s ease !important;
+    margin: 2% 2% 6% 4%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn{
+    background-color: #8f4b4b;
+    border-color: transparent;
+}
+.btn:hover{
+    background-color: #ca7575;
+    border-color: transparent;
+}
+#btn-env:hover,
+#btn-env:focus {
+    background-color: #e27c7c;
+    color: black;
+}
+
+#btn-env:active,
+#btn-env.active,
+#btn-env[aria-pressed="true"] {
+    background-color: #ca7575 !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.hqdef{
+    max-height: 83vh;
+}
+.formtudo{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(1, 1, 0.5, 0.5);;
+}
+.formtudo h4{
+    padding-top: 2%;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+.cardmapa{
+    min-height: 35vh;
+}
+.bodymapa{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.bodymapa iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #ca7575 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+.imagefoot{
+    background-color: #ca7575;
+}
+@media (max-width:1000px){
+    .cabacalho {
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+    }
+
+    .img-footer{
+        margin-top: -20px;
+        width: 50%;
+        height: auto;
+    }
+
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 43%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 399px) and (max-width: 600px) {
+    .cabacalho {
+        width: 40px;
+        height: 40px;
+    }
+    
+    canvas {
+        min-height: 40vh;
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 38%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .imgs img {
+        width: 50%;
+        height: auto;
+        margin-left: 35%;
+    }
+    .imgdengue {
+        margin-top: -10px;
+        margin-bottom: 10%;
+    }
+    canvas {
+        min-height: 35vh;
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 38%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
+    }
+}
