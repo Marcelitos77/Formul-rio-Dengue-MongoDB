@@ -1,8 +1,8 @@
-# Página Sobre a Dengue 
+# Aplicação de banco de dados no Formulário
 
-Projeto Integrador - Curso de DSM - Fatec Indaiatuba
+Projeto final - Desenvolve Boticário
 
-deploy: https://dengue-fatec.vercel.app/
+Aprimorando o site feito para o PI da faculdade onde o formulário era apenas no front end sem destino, foi aplicado a intregração do banco de dados MongoDB ao formulário dando destino as dúvidas dos usuário em um site web responsivo.
 
 
 ## 🛠 Habilidades
@@ -13,18 +13,13 @@ deploy: https://dengue-fatec.vercel.app/
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ## Autores
 
 - [@marcelitos77](https://www.github.com/marcelitos77)
-
-- [@bonono06](https://github.com/bonomo06)
-
-- [@GustavoSilvadeCarvalho](https://github.com/GustavoSilvadeCarvalho)
-
-- [@rogarcia7](https://github.com/rogarcia7)
-
-- [@DaviMansur01](https://github.com/DaviMansur01) 
 
 
   
